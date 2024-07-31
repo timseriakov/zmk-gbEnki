@@ -664,7 +664,6 @@
             layers = <0 3 6 1>;
         };
     };
-;
 
     behaviors {
         td_next_prev_track: td_next_prev_track {
