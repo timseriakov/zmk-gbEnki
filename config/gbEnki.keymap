@@ -496,12 +496,12 @@
         };
 
         combo_uj_brackets_round {
-            bindings = <&td_bks_round>;
+            bindings = <&none>;
             key-positions = <7 19>;
         };
 
         combo_ik_brackets_square {
-            bindings = <&td_bks_square>;
+            bindings = <&none>;
             key-positions = <8 20>;
         };
 
@@ -683,40 +683,6 @@
             quick-tap-ms = <195>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
-        };
-
-        td_bks_round: td_bks_round {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_BKS_ROUND";
-            #binding-cells = <0>;
-            tapping-term-ms = <260>;
-            bindings = <&gr_bks_round>, <&kp RIGHT_PARENTHESIS>;
-        };
-
-        td_bks_square: td_bks_square {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_BKS_SQUARE";
-            #binding-cells = <0>;
-            tapping-term-ms = <260>;
-            bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
-        };
-
-        gr_bks_round: gr_bks_round {
-            compatible = "zmk,behavior-mod-morph";
-            label = "GR_BKS_ROUND";
-            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        gr_boot_reset: gr_boot_reset {
-            compatible = "zmk,behavior-mod-morph";
-            label = "GR_BOOT_RESET";
-            bindings = <&bootloader>, <&sys_reset>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
         };
 
         gr_vim_ggG: gr_vim_ggG {
