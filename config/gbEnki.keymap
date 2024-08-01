@@ -834,10 +834,10 @@
 
         hotkeys_layer_2 {
             bindings = <
-&trans  &trans     &trans          &trans          &trans          &trans               &trans         &trans            &trans         &trans         &trans  &trans
-&trans  &kp LG(A)  &kp LG(LS(N1))  &kp LG(LS(N4))  &kp LG(LS(N2))  &kp LG(LS(LA(O)))    &kp LG(LC(J))  &kp LG(LC(J))     &kp LG(LC(K))  &kp LG(LC(K))  &trans  &trans
-&trans  &trans     &trans          &trans          &kp LG(LS(N5))  &kp LG(LA(D))        &trans         &kp LC(UP_ARROW)  &kp LC(DOWN)   &trans         &trans  &trans
-                                   &kp LG(LC(J))   &mcr_paste_app  &kp LG(LC(K))        &trans         &trans            &trans
+&trans  &trans     &trans          &trans          &trans          &trans               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(A)  &kp LG(LS(N1))  &kp LG(LS(N4))  &kp LG(LS(N2))  &kp LG(LS(LA(O)))    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans          &kp LG(LA(D))   &kp LG(LS(N5))  &mcr_paste_app       &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans          &mcr_paste_app  &trans               &trans  &trans  &trans
             >;
         };
 
