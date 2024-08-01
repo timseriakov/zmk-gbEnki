@@ -907,7 +907,7 @@
         mouse_scroll_layer {
             bindings = <
 &trans  &mcr_scroll_off  &mcr_scroll_off  &mcr_tmp_mouse_layer  &mcr_scroll_off  &mcr_scroll_off    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LCTRL        &kp LALT         &kp LGUI              &kp LSHIFT       &mcr_scroll_off    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mcr_scroll_off  &mcr_scroll_off  &mcr_scroll_off       &soft_off        &mcr_scroll_off    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &mcr_scroll_off  &mcr_scroll_off  &mcr_scroll_off       &mcr_scroll_off  &mcr_scroll_off    &trans  &trans  &trans  &trans  &trans  &trans
                                           &mcr_scroll_off       &mcr_scroll_off  &mcr_scroll_off    &trans  &trans  &trans
             >;
