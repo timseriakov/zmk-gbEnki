@@ -371,17 +371,6 @@
             label = "MCR_SCROLL_OFF";
         };
 
-        mcr_tmp_mouse_layer: mcr_tmp {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&mcr_scroll_off &to 10>,
-                <&macro_pause_for_release>,
-                <&mcr_scroll_on &to 11>;
-
-            label = "MCR_TMP";
-        };
-
         mcr_test2: mcr_test2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
