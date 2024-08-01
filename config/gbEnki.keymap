@@ -701,27 +701,10 @@
             bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
         };
 
-        td_bks_curly: td_bks_curly {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_BKS_CURLY";
-            #binding-cells = <0>;
-            tapping-term-ms = <260>;
-            bindings = <&gr_bks_curly>, <&kp RIGHT_BRACE>;
-        };
-
         gr_bks_round: gr_bks_round {
             compatible = "zmk,behavior-mod-morph";
             label = "GR_BKS_ROUND";
             bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
-        gr_bks_curly: gr_bks_curly {
-            compatible = "zmk,behavior-mod-morph";
-            label = "GR_BKS_CURLY";
-            bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -750,23 +733,6 @@
             label = "TD_G_GG";
             #binding-cells = <0>;
             bindings = <&kp G>, <&kp LG(UP_ARROW)>;
-        };
-
-        td_LT_GT: td_LT_GT {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_LT_GT";
-            #binding-cells = <0>;
-            tapping-term-ms = <260>;
-            bindings = <&gr_LT_GT>, <&kp GT>;
-        };
-
-        gr_LT_GT: gr_LT_GT {
-            compatible = "zmk,behavior-mod-morph";
-            label = "GR_LT_GT";
-            bindings = <&kp LESS_THAN>, <&kp GT>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
         };
 
         td_vim_d_dd_D: td_vim_d_dd_D {
