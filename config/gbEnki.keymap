@@ -895,7 +895,7 @@
             >;
         };
 
-        mouse_layer {
+        nav_layer {
             bindings = <
 &trans  &trans  &kp LG(LC(J))  &none           &kp LG(LC(K))           &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp LG(LEFT)   &mcr_scroll_on  &kp LG(RIGHT)           &trans      &trans  &trans  &trans  &trans  &trans  &trans
@@ -904,10 +904,10 @@
             >;
         };
 
-        mouse_scroll_layer {
+        nav_scroll_layer {
             bindings = <
 &trans  &mcr_scroll_off  &mcr_scroll_off  &mcr_tmp_mouse_layer  &mcr_scroll_off  &mcr_scroll_off    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &mcr_scroll_off  &mcr_scroll_off  &mcr_scroll_off       &soft_off        &mcr_scroll_off    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mcr_scroll_off  &mcr_scroll_off  &mcr_scroll_off       &mcr_scroll_off  &mcr_scroll_off    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &mcr_scroll_off  &mcr_scroll_off  &mcr_scroll_off       &mcr_scroll_off  &mcr_scroll_off    &trans  &trans  &trans  &trans  &trans  &trans
                                           &mcr_scroll_off       &mcr_scroll_off  &mcr_scroll_off    &trans  &trans  &trans
             >;
