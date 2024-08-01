@@ -858,15 +858,6 @@
             tapping-term-ms = <260>;
         };
 
-        td_slash_dot: td_slash_dot {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_SLASH_DOT";
-            #binding-cells = <0>;
-            bindings = <&kp SLASH>, <&kp DOT>;
-
-            tapping-term-ms = <250>;
-        };
-
         lt_like_hmr: lt_like_hmr {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_LIKE_HMR";
