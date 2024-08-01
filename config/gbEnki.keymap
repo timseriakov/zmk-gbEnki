@@ -439,7 +439,7 @@
             key-positions = <32 33>;
         };
 
-        combo_nm_dot {
+        combo_nm_ru_dot {
             bindings = <&kp AMPERSAND>;
             key-positions = <30 31>;
         };
@@ -450,7 +450,7 @@
         };
 
         combo_v_t3_switch_lang {
-            bindings = <&kp LEFT_SHIFT>;
+            bindings = <&kp F24>;
             key-positions = <36 28>;
         };
 
@@ -639,18 +639,6 @@
         combo_g_t1_raycast_apps {
             bindings = <&kp LC(LG(N))>;
             key-positions = <17 38>;
-        };
-
-        combo_er_par {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <3 4>;
-            layers = <0 5 8 1>;
-        };
-
-        combo_ui_par {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <7 8>;
-            layers = <0 5 8 1>;
         };
     };
 
