@@ -489,14 +489,9 @@
             key-positions = <7 19>;
         };
 
-        combo_ik_brackets_square {
-            bindings = <&none>;
-            key-positions = <8 20>;
-        };
-
-        combo_ol_pipe {
+        combo_ik_pipe {
             bindings = <&kp BACKSLASH>;
-            key-positions = <9 21>;
+            key-positions = <8 20>;
         };
 
         combo_ed_double_quotes {
