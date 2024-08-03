@@ -135,7 +135,7 @@
         mcr_esc: mcr_esc {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ESC &to 0>;
+            bindings = <&kp ESC &to 0 &mcr_scroll_off>;
             label = "MCR_ESC";
         };
 
