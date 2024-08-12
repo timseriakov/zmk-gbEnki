@@ -377,6 +377,13 @@
             bindings = <&kp N1 &kp LS(Q) &kp A &kp Z &kp N2 &kp LS(W) &kp S &kp X &kp EXCLAMATION &kp EXCL &kp ENTER>;
             label = "MCR_TEST2";
         };
+
+        mcr_format_code: mcr_format_code {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ENTER &kp LG(Z) &kp SPACE &kp F &kp LG(S)>;
+            label = "MCR_FORMAT_CODE";
+        };
     };
 
     combos {
@@ -786,10 +793,10 @@
 
         hotkeys_layer_1 {
             bindings = <
-&trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)     &kp LG(N5)    &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)  &trans
-&trans  &trans      &trans      &trans      &kp LG(LS(K))  &kp LG(K)     &trans      &trans      &trans      &trans      &trans      &trans
-&trans  &trans      &trans      &trans      &trans         &trans        &trans      &trans      &trans      &trans      &trans      &trans
-                                &kp LG(N9)  &kp LG(P)      &trans        &trans      &trans      &trans
+&trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)     &kp LG(N5)          &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)  &trans
+&trans  &trans      &trans      &trans      &kp LG(LS(K))  &kp LG(K)           &trans      &trans      &trans      &trans      &trans      &trans
+&trans  &trans      &trans      &trans      &trans         &trans              &trans      &trans      &trans      &trans      &trans      &trans
+                                &kp LG(N9)  &kp LG(P)      &mcr_format_code    &trans      &trans      &trans
             >;
         };
 
