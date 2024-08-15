@@ -427,7 +427,7 @@
                 <&macro_press>,
                 <&kp F24 &kp LEFT_CONTROL>,
                 <&macro_tap>,
-                <&kp F4>,
+                <&kp F5>,
                 <&macro_release>,
                 <&kp F24 &kp LEFT_CONTROL>;
 
