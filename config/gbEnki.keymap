@@ -399,7 +399,7 @@
         combo_df_esc {
             bindings = <&mcr_esc>;
             key-positions = <15 16>;
-            layers = <0 8 5 1 11>;
+            layers = <0 8 5 11>;
         };
 
         combo_sd_ctrl_a {
@@ -637,6 +637,12 @@
         combo_g_t1_raycast_apps {
             bindings = <&kp LC(LG(N))>;
             key-positions = <17 38>;
+        };
+
+        combo_df_esc_shift {
+            bindings = <&mcr_esc_shift>;
+            key-positions = <15 16>;
+            layers = <1>;
         };
     };
 
