@@ -384,6 +384,13 @@
             bindings = <&kp ENTER &kp LG(Z) &kp SPACE &kp F &kp LG(S)>;
             label = "MCR_FORMAT_CODE";
         };
+
+        mcr_esc_shift: mcr_esc_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(ESC) &to 0 &mcr_scroll_off>;
+            label = "MCR_ESC_SHIFT";
+        };
     };
 
     combos {
