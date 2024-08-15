@@ -920,10 +920,10 @@
 
         nav_layer {
             bindings = <
-&trans  &trans  &kp LG(LC(J))  &none           &kp LG(LC(K))  &trans        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LG(LEFT)   &mcr_scroll_on  &kp LG(RIGHT)  &trans        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans         &trans          &trans         &trans        &trans  &trans  &trans  &trans  &trans  &trans
-                               &kp LC(F3)      &kp LC(F4)     &kp LC(F5)    &trans  &trans  &trans
+&trans  &trans  &kp LG(LC(J))  &none           &kp LG(LC(K))  &mcr_f3_ctrl    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LG(LEFT)   &mcr_scroll_on  &kp LG(RIGHT)  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans         &trans          &trans         &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                               &kp LC(F3)      &mcr_f4_ctrl   &mcr_f5_ctrl    &trans  &trans  &trans
             >;
         };
 
