@@ -2,11 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: timseriakov
-      url-base: https://github.com/
+    - name: sqdbruh
+      url-base: https://github.com/sqdbruh
   projects:
-    - name: zmk-sqdbruh-fork
-      remote: timseriakov
+    - name: zmk
+      remote: sqdbruh
       revision: main
       import: app/west.yml
   self:
