@@ -452,8 +452,8 @@
             timeout-ms = <40>;
         };
 
-        combo_fg_backspace {
-            bindings = <&kp BACKSPACE>;
+        combo_fg_backspace_delete {
+            bindings = <&gr_backspace_delete>;
             key-positions = <16 17>;
             layers = <0 5 8 1>;
             timeout-ms = <35>;
@@ -725,13 +725,6 @@
             key-positions = <2 14>;
             layers = <0 5 1 8>;
         };
-
-        combo_fg_layered_delete {
-            bindings = <&kp DEL>;
-            key-positions = <16 17>;
-            timeout-ms = <35>;
-            layers = <1>;
-        };
     };
 
     behaviors {
@@ -868,6 +861,15 @@
             quick-tap-ms = <195>;
             global-quick-tap;
             bindings = <&mo>, <&kp>;
+        };
+
+        gr_backspace_delete: gr_backspace_delete {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GR_BACKSPACE_DELETE";
+            bindings = <&kp BACKSPACE>, <&kp DEL>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
         };
     };
 
