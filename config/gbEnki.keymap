@@ -725,6 +725,13 @@
             key-positions = <2 14>;
             layers = <0 5 1 8>;
         };
+
+        combo_fg_layered_delete {
+            bindings = <&kp DEL>;
+            key-positions = <16 17>;
+            timeout-ms = <35>;
+            layers = <1>;
+        };
     };
 
     behaviors {
