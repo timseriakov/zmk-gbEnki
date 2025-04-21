@@ -21,7 +21,3 @@ Link to project: [https://github.com/aroum/zmk-gbEnki/](https://github.com/aroum
 ---
 
 ![gbEnki Keyboard](./gbenki-2.jpg)
-
----
-
-![gbEnki Keyboard](./gbenki-3.mp4)
